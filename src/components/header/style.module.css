@@ -1,0 +1,96 @@
+.container{
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 0 10px;
+    width: 100%;
+}
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.cards__h1{
+    color: rgb(255, 140, 24);
+    font-family: Prompt;
+    font-weight: 400;
+}
+.card__ul{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.cards__ul{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+.ul__li__a{
+    color: rgb(28, 28, 28);
+    font-family: Prompt;
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+}
+.hamburger{
+    color: #ff9719;
+    width: 30px;
+    height: 30px;
+    display: none;
+ }
+@media only screen and (max-width: 1278px) {
+    .container{
+       width: 100%;
+       max-width: 95%;
+       margin: 0px auto;
+       padding: 0px 10px;
+    }
+ }
+ @media only screen and (max-width: 1200px) {
+    .card__ul{
+       width: 50%;
+       display: flex;
+       align-items: center;
+       justify-content: space-between;
+    }
+ }
+ @media only screen and (max-width: 960px) {
+    .card__ul{
+        display: none;
+     }
+    .cards__h1{
+       width: 25%;
+    }
+    .card__button{
+        display: none;
+    }
+    .hamburger{
+        display: block;
+     }
+ }
+ @media only screen and (max-width: 780px) {
+    .cards__h1{
+       width: 25%;
+    }
+    .hamburger{
+       display: block;
+    }
+ }
+ @media only screen and (max-width: 600px) {
+    .cards__h1{
+       width: 35%;
+    }
+    .hamburger{
+       display: block;
+    }
+ }
+ @media only screen and (max-width: 410px) {
+    .cards__h1{
+       width: 45%;
+    }
+    .hamburger{
+       display: block;
+    }
+ }
