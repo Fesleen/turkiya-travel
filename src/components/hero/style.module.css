@@ -1,6 +1,122 @@
-.container{
+.container {
     max-width: 1240px;
     margin: 0 auto;
     padding: 0 10px;
     width: 100%;
+    margin-top: 70px;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card__left {
+    width: 45%;
+}
+
+.cards__title {
+    width: 100%;
+    color: rgb(8, 8, 8);
+    font-family: Poppins;
+    font-size: 52px;
+    font-weight: 600;
+}
+
+.cards__price {
+    color: rgb(74, 74, 74);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 50px;
+    display: block;
+}
+
+.images {
+    width: 42%;
+    height: 510px;
+    border-radius: 25px;
+}
+
+@media only screen and (max-width: 1080px) {
+    .images {
+        width: 47%;
+        height: 480px;
+        border-radius: 25px;
+    }
+}
+
+@media only screen and (max-width: 980px) {
+    .images {
+        width: 50%;
+        height: 450px;
+        border-radius: 25px;
+    }
+}
+
+@media only screen and (max-width: 880px) {
+    .card {
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+
+    .card__left {
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .images {
+        width: 90%;
+        border-radius: 25px;
+
+    }
+
+}
+
+@media only screen and (max-width: 580px) {
+
+    .cards__title {
+        width: 100%;
+        color: rgb(8, 8, 8);
+        font-family: Poppins;
+        font-size: 32px;
+        font-weight: 600;
+    }
+
+    .cards__price {
+        color: rgb(74, 74, 74);
+        font-family: Poppins;
+        font-size: 14px;
+        font-weight: 400;
+        margin-bottom: 50px;
+        display: block;
+    }
+
+    .images {
+        width: 100%;
+        height: 350px;
+        border-radius: 25px;
+
+    }
+
+}
+@media only screen and (max-width: 380px) {
+    .images {
+        width: 100%;
+        height: 300px;
+        border-radius: 25px;
+
+    }
+
+}
+@media only screen and (max-width: 280px) {
+    .images {
+        width: 100%;
+        height: 250px;
+        border-radius: 25px;
+
+    }
+
 }

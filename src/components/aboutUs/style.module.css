@@ -4,3 +4,138 @@
     padding: 0 10px;
     width: 100%;
 }
+.cards__top{
+    width: 60%;
+}
+.cards__p{
+    margin-top: 100px;
+    color: rgb(255, 153, 0);
+    font-size: 18px;
+    font-family: Poppins;
+}
+.cards__h1{
+    margin: 0;
+    padding: 0;
+    color: rgb(0, 0, 0);
+    font-family: Poppins;
+    font-size: 42px;
+    font-weight: 500;
+}
+.card{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.images{
+    width: 37%;
+    height: 590px;
+    border-radius: 30px;
+}
+.card__right{
+    width: 50%;
+}
+.card__right__top{
+    display: flex;
+    justify-content: space-between;
+}
+.card__right__top__item{
+    width: 40%;
+}
+.card__strong{
+    margin: 0;
+    padding: 0;
+    color: rgb(255, 140, 0);
+    font-family: Poppins;
+    font-size: 32px;
+    font-weight: 400;
+}
+.card__p{
+    margin: 0;
+    padding: 0;
+    color: rgb(104, 104, 104);
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+}
+.card__right__bottom{
+    display: flex;
+    justify-content: space-between;
+}
+.card__right__bottom__item{
+    width: 40%;
+    margin-top: 80px;
+}
+@media only screen and (max-width: 880px) {
+    .cards__top{
+        margin: 0 auto;
+        text-align: center;
+        width: 100%;
+    }
+    .cards__p{
+        margin-top: 100px;
+        color: rgb(255, 153, 0);
+        font-size: 38px;
+        font-family: Poppins;
+    }
+    .cards__h1{
+        margin: 0;
+        padding: 0;
+        color: rgb(0, 0, 0);
+        font-family: Poppins;
+        font-size: 22px;
+        font-weight: 500;
+    }
+    .card{
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .images{
+        margin-top: 50px;
+        width: 90%;
+        height: 850px;
+        border-radius: 30px;
+    }
+    .card__right{
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .card__right__top{
+        margin: 50px;
+        justify-content: space-between;
+    }
+    .card__strong{
+        margin: 0;
+        padding: 0;
+        color: rgb(255, 140, 0);
+        font-family: Poppins;
+        font-size: 42px;
+        font-weight: 400;
+    }
+    .card__p{
+        margin: 0;
+        padding: 0;
+        color: rgb(104, 104, 104);
+        font-family: Poppins;
+        font-size: 24px;
+        font-weight: 400;
+    }
+
+}
+@media only screen and (max-width: 580px) {
+    .images{
+        width: 100%;
+        height: 600px;
+    }
+    .card__right{
+        display: none;
+    }
+}
+@media only screen and (max-width: 380px) {
+    .images{
+        width: 100%;
+        height: 400px;
+    }
+}
