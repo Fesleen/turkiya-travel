@@ -1,6 +1,32 @@
-.container{
-    max-width: 1240px;
-    margin: 0 auto;
-    padding: 0 10px;
-    width: 100%;
-}
+/* style.module.css */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+  
+  .card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    text-align: center;
+  }
+  
+  .images {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .cards__h2 {
+    margin-top: 8px;
+    font-size: 1.2em;
+  }
+  

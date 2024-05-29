@@ -46,8 +46,10 @@ const Slider = () => {
               alt={`Slide ${idx + 1}`}
             />
             <Carousel.Caption>
-              <h3>{`Slide ${idx + 1} label`}</h3>
-              <p>{elem.description || "No description available."}</p>
+              <h3>Historical Tour</h3>
+              <p>A tour of Istanbul can take you through the city's magnificent landmarks, such as the Blue Mosque, and the Topkapi Palace, which provide a glimpse into Istanbul's grandeur and history.
+                <br />
+                You can also explore Istanbul's diverse neighborhoods, each with its own character and charm, from the bohemian Beyoglu to the historic Sultanahmet.</p>
             </Carousel.Caption>
           </Carousel.Item>
         ))}
