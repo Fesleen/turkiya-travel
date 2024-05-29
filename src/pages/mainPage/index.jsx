@@ -11,7 +11,7 @@ import Footer from '../../components/footer'
 
 const MainPages = () => {
   return (
-    <>
+    <div  style={{width : '100%' , height : '100vh'}} id='home'>
    <Header/>
    <Hero/>
    <AboutUs/>
@@ -21,7 +21,7 @@ const MainPages = () => {
    <Blog/>
    <Contact/>
    <Footer/>
-    </>
+    </div>
   )
 }
 

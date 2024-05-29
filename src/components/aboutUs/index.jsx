@@ -28,7 +28,7 @@ const AboutUs = () => {
   }
 
   return (
-    <div className={styles.container}>
+    <div className={styles.container}  id='about'>
       <div className={styles.cards__top}>
         <p className={styles.cards__p}>About Us</p>
         <h1 className={styles.cards__h1}>One of the most popular travel agencies in 2023</h1>

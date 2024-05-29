@@ -7,6 +7,7 @@ import { Link } from "react-router-dom";
 
 
 
+
 function Footer() {
   return (
     <div className={styles.footer}>

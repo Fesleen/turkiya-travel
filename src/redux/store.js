@@ -4,7 +4,7 @@ import aboutUsReducer from "./about_us/index";
 import photoReducer from "./photo/index"
 import placesReducerr from "./places/index"
 import blogReducer from "./blog/index"
-import contactReducer from './contact/index';
+import ContactSlice from './contact/index';
 
 export const store = configureStore({
     reducer: {
@@ -13,6 +13,6 @@ export const store = configureStore({
         photo : photoReducer ,
         places : placesReducerr,
         blog : blogReducer ,
-        contact : contactReducer
+        contact : ContactSlice
     }
 });

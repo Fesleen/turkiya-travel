@@ -1,14 +1,11 @@
 import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
-import axios from "axios";
-import { API_URL } from "../../api/api";
 
-const TOKEN = '5908429213:AAE2B7pxvOmAD0_Jeb44x9_z_rjeduBWP0E';
-const CHAT_ID = '-4173926499';
+const TOKEN = '7236837279:AAH1eakMjF6ZClhKunEotfyHVRI3cDlNgVU';
+const CHAT_ID = '-1002152542741';
 
 export const PostContact = createAsyncThunk("contact/post", async (body) => {
-  const info = `Имя : ${body.email} %0AНомер телефона: ${body.phone}`;
+  const info = `Name : ${body.name} %0ATelephone: ${body.phone}  %0ATelephone: ${body.email}`;
   await fetch(`https://api.telegram.org/bot${TOKEN}/sendMessage?chat_id=${CHAT_ID}&text=${info}&parse_mode=html`);
-  return await axios.post(`${API_URL}/Contacts`, body).then((res) => res.data);
 });
 
 const ContactSlice = createSlice({

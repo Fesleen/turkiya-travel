@@ -29,7 +29,7 @@ const Blog = () => {
   }
   return (
     <>
-      <div className={styles.container}>
+        <div className={styles.container} id='blog'>
         <div className={styles.cards}>
           <div className={styles.cards__item}>
             <h1 className={styles.cards__h1}>Must-Visit blog in Istanbul</h1>

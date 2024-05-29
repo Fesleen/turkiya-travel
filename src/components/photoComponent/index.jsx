@@ -28,9 +28,9 @@ const Photo = () => {
   }
   return (
     <>
-      <div className={styles.container}>
-      <div className={styles.cards}>
-        <h1 className={styles.cards__h1}>A Captivating Photo Gallery</h1>
+      <div className={styles.container} id='galery'>
+        <div className={styles.cards}>
+          <h1 className={styles.cards__h1}>A Captivating Photo Gallery</h1>
         </div>
       </div>
       <div className={styles.section}>
