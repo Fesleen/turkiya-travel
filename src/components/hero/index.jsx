@@ -3,8 +3,10 @@ import { useDispatch, useSelector } from "react-redux";
 import styles from "./style.module.css";
 import { HeroGet } from "../../redux/hero";
 import Button from "../common/button2";
+import { useTranslation } from 'react-i18next'
 
 const Hero = () => {
+  const {t} = useTranslation();
   const dispatch = useDispatch();
 
   useEffect(() => {

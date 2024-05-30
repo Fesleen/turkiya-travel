@@ -1,10 +1,87 @@
 {
-  "Home": {
+  "Header": {
     "home": "Bosh sahifa",
     "about": "Biz haqimizda",
     "programs": "Dasturlar",
     "blog": "Blog",
     "gallery": "Galereya",
-    "bookATour": "Sayohatni buyurtma qilish"
+    "bookATour": "Sayohatga yozilish",
+    "Read More": "Batafsil o'qish"
+  },
+  "Hero": {
+    "0": "Istanbulning yashirin durdonalarini kashf eting",
+    "1": "Uning boy madaniyati, mazali taomlari va mehmondo'st odamlari har qanday sayohatchi uchun sarguzasht, go'zallik va ilhom izlayotgan joyni majburiy tashrif buyuradigan joyga aylantiradi.",
+    "2": "Batafsil o'qish"
+  },
+  "About": {
+    "0": "Biz haqimizda",
+    "1": "2023 yilda eng mashhur sayohat agentliklaridan biri",
+    "2": "Batafsil o'qish",
+    "desc_1": "sayyohlar Istanbulni biz bilan allaqachon tanishgan",
+    "desc_2": "Istanbulda ekskursiyalar o'tkazishda yillik tajriba",
+    "desc_3": "sayyohlar bizning agentligimizga a'lo baho berishgan",
+    "desc_4": "ekskursiyalar o'tkaziladigan tillar"
+  },
+  "Slider": {
+    "0": "Tarixiy tur",
+    "1": "Istanbul bo'ylab ekskursiya sizni shaharning go'zal diqqatga sazovor joylari, masalan, Moviy masjid va Topkapi saroyi orqali olib o'tishi mumkin, bu Istanbulning buyukligi va tarixini ochib beradi.",
+    "2": "Siz shuningdek, Istanbulning xilma-xil mahallalarini o'rganishingiz mumkin, har biri o'z xarakteri va jozibasiga ega, bohem Beyoglu'dan tarixiy Sultanahmetgacha."
+  },
+  "Photo": {
+    "0": "Jozibali fotogalereya"
+  },
+  "Places": {
+    "0": "Istanbulda majburiy tashrif buyuriladigan joylar",
+    "1": "Istanbul, Sharq va G'arbning sehrli aralashmasi, boy tarixi, yorqin madaniyati va ajoyib arxitekturasi bilan jalb qiladigan shahar. Uning gavjum ko'chalari bo'ylab yurganingizda, shunchaki o'tkazib yuborib bo'lmaydigan joylar mavjud.",
+    "2": "Galata ko'prigi",
+    "3": "Basilika tsisternasi",
+    "4": "Süleymaniye masjidi",
+    "5": "Emirgan bog'i",
+    "6": "Bosfor",
+    "7": "Miniaturk"
+  },
+  "Blog": {
+    "0": "Istanbulda majburiy tashrif buyuriladigan bloglar",
+    "1": "Istanbul, Sharq va G'arbning sehrli aralashmasi, boy tarixi, yorqin madaniyati va ajoyib arxitekturasi bilan jalb qiladigan shahar. Uning gavjum ko'chalari bo'ylab yurganingizda, shunchaki o'tkazib yuborib bo'lmaydigan joylar mavjud.",
+    "2": "Istanbulning yashirin durdonalari",
+    "3": "Sizga bu qadimiy shahar sirlarini ochib beradigan yo'llar bo'ylab yuring.",
+    "4": "Yorqin mahallalar",
+    "5": "Istanbul, har biri o'ziga xos jozibaga ega bo'lgan yorqin mahallalar shaharidir.",
+    "6": "Turk mehmondo'stligi",
+    "7": "Turk mehmondo'stligi madaniyatda chuqur ildiz otgan qadimiy an'ana.",
+    "8": "Izohlar",
+    "9": "Batafsil o'qish"
+  },
+  "Contact": {
+    "0": "Unutilmas sayohatni boshlang: bugun Istanbul turiga yoziling!",
+    "1": "Ism",
+    "2": "Sarlavha",
+    "3": "Elektron pochta",
+    "4": "Mobil telefon",
+    "5": "Yuborish"
+  },
+  "Footer": {
+    "0": "Bepul maslahat olishni xohlaysizmi? Balki sizning mavjud",
+    "1": "Bugun bizga qo'ng'iroq qiling",
+    "2": "Tezkor havolalar",
+    "3": "Bosh sahifa",
+    "4": "Biz haqimizda",
+    "5": "Sayohatlar",
+    "6": "FAQ",
+    "7": "Aloqa",
+    "8": "Resurslar",
+    "9": "Qo'llab-quvvatlash",
+    "10": "Rivojlanish",
+    "11": "Aloqa",
+    "12": "Shartlar va qoidalar",
+    "13": "Xavfsizlik",
+    "14": "Kategoriyalar",
+    "15": "Resurslar",
+    "16": "Qo'llab-quvvatlash",
+    "17": "Rivojlanish",
+    "18": "Aloqa",
+    "19": "Shartlar va qoidalar",
+    "20": "Xavfsizlik",
+    "21": "2023 ©ISTANJOURNEY. Barcha huquqlar himoyalangan."
   }
 }

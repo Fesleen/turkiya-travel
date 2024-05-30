@@ -1,11 +1,87 @@
 {
-  "Home": {
+  "Header": {
     "home": "Home",
     "about": "About",
     "programs": "Programs",
     "blog": "Blog",
     "gallery": "Gallery",
-    "bookATour": "Book a Tour" ,
-    "Read More" : ""
+    "bookATour": "Book a Tour",
+    "Read More": ""
+  },
+  "Hero": {
+    "0": "Discover Istanbul's Hidden Gems",
+    "1": "Its vibrant culture, delicious cuisine, and welcoming people make it a must-visit destination for any traveler seeking adventure, beauty, and inspiration.",
+    "2": "Raed More"
+  },
+  "About": {
+    "0": "About Us",
+    "1": "One of the most popular travel agencies in 2023",
+    "2": "Raed More",
+    "desc_1": "tourists have already got to know Istanbul with us",
+    "desc_2": "years of experience in conducting tours in Istanbul",
+    "desc_3": "of tourists gave excellent rating our agency",
+    "desc_4": "languages in which excursions are conducted"
+  },
+  "Slider": {
+    "0": "Historical Tour",
+    "1": "A tour of Istanbul can take you through the city's magnificent landmarks, such as the Blue Mosque, and the Topkapi Palace, which provide a glimpse into Istanbul's grandeur and history.",
+    "2": "You can also explore Istanbul's diverse neighborhoods, each with its own character and charm, from the bohemian Beyoglu to the historic Sultanahmet."
+  },
+  "Photo": {
+    "0": "A Captivating Photo Gallery"
+  },
+  "Places": {
+    "0": "Must-Visit Places in Istanbul",
+    "1" : "Istanbul, a mesmerizing blend of East and West, is a city that beckons with its rich history, vibrant culture, and stunning architecture. As you wander through its bustling streets, there are certain places that simply cannot be missed.",
+    "2" : "Galata Bridge",
+    "3" : "Basilica Cistern",
+    "4" : "Süleymaniye Mosque",
+    "5" : "Emirgan Park" ,
+    "6" : "Bosphorus" ,
+    "7" : "Miniaturk"
+  },
+  "Blog": {
+    "0": "Must-Visit blog in Istanbul",
+    "1" : "Istanbul, a mesmerizing blend of East and West, is a city that beckons with its rich history, vibrant culture, and stunning architecture. As you wander through its bustling streets, there are certain places that simply cannot be missed.",
+    "2" : "Hidden Istanbul Gems",
+    "3" : "Step off the beaten path and immerse yourself in the enchanting secrets of this ancient city.",
+    "4" : "Vibrant Neighborhoods",
+    "5" : "Istanbul, a city of vibrant neighborhoods, each with its unique charm." ,
+    "6" : "Turkish Hospitality" ,
+    "7" : "Turkish hospitality is a timeless tradition deeply rooted in the culture.",
+    "8" : " Comments",
+    "9" : "Read More"
+  },
+  "Contact": {
+    "0": "Embark on an Unforgettable Journey: Book Your Istanbul Tour Today!",
+    "1" : "Name",
+    "2" : "Title",
+    "3" : "Email",
+    "4" : "Mobil phone",
+    "5" : "Send" 
+  },
+  "Footer": {
+    "0": "Would you like a free consultation? Perhaps your existing",
+    "1" : "Call us today at",
+    "2" : "Quick Links",
+    "3" : "Home",
+    "4" : "About Us",
+    "5" : "Tours " ,
+    "6" : "FAQ "  ,
+    "7" : "Contact " ,
+    "8": "Resource",
+    "9" : "Support",
+    "10" : "Development",
+    "11" : "Contact",
+    "12" : "Term and Condition ",
+    "13" : "Safety and Security " ,
+    "14" : "Categories "  ,
+    "15": "Resource",
+    "16" : "Support",
+    "17" : "Development",
+    "18" : "Contact",
+    "19" : "Term and Condition ",
+    "20" : "Safety and Security "  ,
+    "21" : "2023 ©ISTANJOURNEY. All Rights Reserved."
   }
 }

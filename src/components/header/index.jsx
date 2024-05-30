@@ -28,15 +28,15 @@ const Header = () => {
         </div>
         <div className={styles.card__ul}>
           <ul className={styles.cards__ul}>
-            <li><a className={styles.ul__li__a} href="#home">{t("Home.home")}</a></li>
-            <li><a className={styles.ul__li__a} href="#about">{t("Home.about")}</a></li>
-            <li><a className={styles.ul__li__a} href="#programs">{t("Home.programs")}</a></li>
-            <li><a className={styles.ul__li__a} href="#blog">{t("Home.blog")}</a></li>
-            <li><a className={styles.ul__li__a} href="#gallery">{t("Home.gallery")}</a></li>
+            <li><a className={styles.ul__li__a} href="#home">{t("Header.home")}</a></li>
+            <li><a className={styles.ul__li__a} href="#about">{t("Header.about")}</a></li>
+            <li><a className={styles.ul__li__a} href="#programs">{t("Header.programs")}</a></li>
+            <li><a className={styles.ul__li__a} href="#blog">{t("Header.blog")}</a></li>
+            <li><a className={styles.ul__li__a} href="#gallery">{t("Header.gallery")}</a></li>
           </ul>
         </div>
         <div className={styles.card__button}>
-          <Button>{t("Home.bookATour")}</Button>
+          <Button>{t("Header.bookATour")}</Button>
         </div>
         <div>
           <select onChange={handleLanguageChange}>
